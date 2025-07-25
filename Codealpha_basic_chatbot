@@ -1,18 +1,18 @@
 # Codealpha_Basic-chatbot
 def chatbot():
-    print("Chatbot: Hi! Type 'bye' to exit.")
+    print("Chatbot is running... Type 'bye' to exit.")
     while True:
         user_input = input("You: ").lower()
         
         if user_input == "hello":
-            print("Chatbot: Hi!")
+            print("Bot: Hi!")
         elif user_input == "how are you":
-            print("Chatbot: I'm fine, thanks!")
+            print("Bot: I'm fine, thanks!")
         elif user_input == "bye":
-            print("Chatbot: Goodbye!")
+            print("Bot: Goodbye!")
             break
         else:
-            print("Chatbot: I don't understand that.")
+            print("Bot: Sorry, I didn't understand that.")
 
 chatbot()
 
